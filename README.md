@@ -1,5 +1,7 @@
 # 📊 RetentionAI - Customer Churn Prediction using Machine Learning
 
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen)](https://prateekkp-retentionai.streamlit.app/)
+
 RetentionAI is a machine learning-powered web application designed to predict customer churn in the telecom sector. This project leverages data preprocessing, feature engineering, and classification models to provide actionable insights into customer retention.
 
 ## 🚀 Features
