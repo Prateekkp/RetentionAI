@@ -5,11 +5,11 @@ import pickle
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 # Load the trained model, scaler, and label encoders
-with open("C:/PK/Data Analysis/Projects/Telco_Churn_Prediction/models/churn_model.pkl", "rb") as f:
+with open("churn_model.pkl", "rb") as f:
     model = pickle.load(f)
-with open("C:/PK/Data Analysis/Projects/Telco_Churn_Prediction/models/scaler.pkl", "rb") as f:
+with open("scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
-with open("C:/PK/Data Analysis/Projects/Telco_Churn_Prediction/models/label_encoders.pkl", "rb") as f:
+with open("label_encoders.pkl", "rb") as f:
     label_encoders = pickle.load(f)
 
 # Streamlit UI
