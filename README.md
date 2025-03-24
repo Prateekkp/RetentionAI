@@ -62,7 +62,7 @@ streamlit run app.py
 - 📧 Email: prateekkumarprasad15@gmail.com
 - 🔗 LinkedIn: https://www.linkedin.com/in/prateekkp/
 
-
+⭐ If you find this project useful, consider giving it a star on GitHub!
 
 
 
