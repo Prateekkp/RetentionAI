@@ -3,14 +3,21 @@ import pandas as pd
 import numpy as np
 import pickle
 from sklearn.preprocessing import StandardScaler, LabelEncoder
+import os
+
+# Get the absolute path to the 'models' directory
+models_dir = os.path.join(os.path.dirname(__file__), "models")
 
 # Load the trained model, scaler, and label encoders
-with open("churn_model.pkl", "rb") as f:
+with open(os.path.join(models_dir, "churn_model.pkl"), "rb") as f:
     model = pickle.load(f)
-with open("scaler.pkl", "rb") as f:
+
+with open(os.path.join(models_dir, "scaler.pkl"), "rb") as f:
     scaler = pickle.load(f)
-with open("label_encoders.pkl", "rb") as f:
+
+with open(os.path.join(models_dir, "label_encoders.pkl"), "rb") as f:
     label_encoders = pickle.load(f)
+
 
 # Streamlit UI
 st.set_page_config(page_title="RetentionAI", page_icon="📊", layout="centered")
