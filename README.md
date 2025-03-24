@@ -34,7 +34,7 @@ RetentionAI/
 ## 🏗️ Setup & Installation
 
 - **1. Clone the repository**:
-git clone https://github.com/your-username/RetentionAI.git
+git clone [https://github.com/your-username/RetentionAI.git](https://github.com/Prateekkp/RetentionAI.git)
 
 - **2. Create and activate a virtual environment**:
 python -m venv env
