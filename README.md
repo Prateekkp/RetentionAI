@@ -4,6 +4,8 @@
 
 RetentionAI is a machine learning-powered web application designed to predict customer churn in the telecom sector. This project leverages data preprocessing, feature engineering, and classification models to provide actionable insights into customer retention.
 
+💡 **Tip:** The app may go to sleep due to inactivity. Simply click on "Get up app" and enjoy seamless predictions! 🚀 
+
 ## 🚀 Features
 
 - **User-Friendly Web Interface**: Built with Streamlit for seamless customer churn prediction.
